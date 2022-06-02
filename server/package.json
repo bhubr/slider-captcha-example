@@ -1,0 +1,23 @@
+{
+  "name": "slider-captcha-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon",
+    "lint": "eslint --fix src/",
+    "format": "prettier --write src/",
+    "lint-format": "yarn lint && yarn format"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@slider-captcha/core": "^1.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3"
+  }
+}
